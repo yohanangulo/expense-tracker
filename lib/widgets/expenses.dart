@@ -85,6 +85,7 @@ class _ExpensesState extends State<Expenses> {
             onPressed: _openAddExpensesOverlay,
             icon: const Icon(Icons.add),
           ),
+          const SizedBox(width: 5),
         ],
       ),
       body: Column(
